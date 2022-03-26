@@ -32,3 +32,9 @@ There are physical buttons on the device that were used for the pairing and test
 GPIO 27 to Button 1 and GPIO 26 to Button 2  but as this is a device that is living in an attic I didn't. 
 
 The device also has a 3rd relay which isn't used in this model which would be used for a medium speed using GPIO22. 
+
+There are 4 LED lights on the front of the device, The far left red power LED is tied to the power supply and not controllable.
+There are 3 green led lights to the right of the Power LED that are comtrollable:
+"Temp & Hum Timer" - GPIO 25
+"Speed" - GPIO 33
+"Bluetooth" - GPIO 32
